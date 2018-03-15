@@ -1,0 +1,112 @@
+body{
+	padding-top: 50px;
+	background-color: #3D3E43;
+}
+
+/*头部*/
+header{
+	background-color: #EEEEEE;
+}
+
+header div>button{
+	height: 40px;
+	border-radius: 0 !important;
+}
+
+header div img{
+	width: 40px;
+}
+
+header div h4{
+	display: inline-block;
+	margin: 0px;
+}
+
+
+/*侧边导航栏*/
+nav{
+	padding: 0px !important;
+}
+
+nav>.panel-group{
+	margin: 0px !important;
+}
+
+nav>div>div,nav>div>div>a>div{
+	border-radius: 0 !important;
+	border: 0px !important;
+	margin: 0px !important;
+}
+
+nav>div>div>a{
+	color: #bbb;
+}
+
+nav>div>div>a>div{
+	background-color: #3D3E43;
+	height: 50px;
+}
+
+nav>div>div>a:hover{
+	text-decoration: none;
+}
+
+nav>div>div>a:focus{
+	text-decoration: none;
+}
+
+nav>div>div>a:hover>div{
+	color: #fff;
+	background-color: #080808;
+}
+
+nav>div>div>a:focus>div{
+	color: #fff;
+	background-color: #080808;
+}
+
+nav h4{
+	line-height: 30px;
+	font-weight:bold;
+}
+
+nav h4 .glyphicon{
+	margin-right: 5px;
+}
+
+nav h4 .label{
+	float: right;
+	line-height: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 5px 0px;
+}
+
+nav>div>div>div>.list-group>a{
+	font-weight:bold;
+	color: #ededed;
+	background-color: #999 !important;
+	border-radius: 0 !important;
+	border-color: #666;
+}
+
+nav>div>div>div>.list-group>a:hover{
+	color: #777;
+	background-color: #ddd !important;;
+}
+
+nav>div>div>div>.list-group>a:focus{
+	color: #777;
+	background-color: #ddd !important;;
+}
+
+nav .list-group>a>.badge{
+	background-color: #E02222;
+}
+
+/*详情操作*/
+#details{
+	margin-top: -10px;
+	padding-top: 10px;
+	background-color: #FFF;
+}

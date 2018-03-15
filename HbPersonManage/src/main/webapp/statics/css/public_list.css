@@ -1,0 +1,47 @@
+#search{
+	width: 100%;
+}
+
+#title{
+	text-align: center;
+}
+
+form{
+	/*text-align: center;*/
+}
+
+/*表头的搜索 form*/
+.search{
+	text-align: center;
+}
+
+/*薪资*/
+.money{
+	height: 30px;
+	width: 100%;
+	border: 0px;
+}
+
+.salary{
+	text-align: left;
+}
+
+.salary td:last-of-type{
+	padding: 0px !important;
+	width: 20%;
+	border-radius: 0 !important;
+}
+
+.salary td:last-of-type button{
+	border-radius: 0 !important;
+	width: 100%;
+}
+
+
+
+
+/*超级用户——账号管理*/
+#XinZen{
+	display: inline-block;
+	
+}
